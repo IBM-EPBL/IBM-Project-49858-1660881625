@@ -1,0 +1,8 @@
+import random
+Name=list(range(0,500))
+for h in Name:
+        value=random.choice(Name)
+        if value>=55:
+           print("TEMPURATURE IS HIGH__!",value);
+        else:
+            print("NORMAL IS",value);
