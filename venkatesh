@@ -1,8 +1,0 @@
-import random
-name=list(range(1,600))
-for v in name:
-        Alarm=random.choice(name)
-        if Alarm>=30:
-           print("TEMPURATURE VALUE IS:",Alarm);
-        else:
-            print("HUMIDITY VALUE IS:",Alarm);
